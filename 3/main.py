@@ -44,10 +44,10 @@ def find_first_number(numbers, symbols):
 
 
 
-#file = open('input', 'r')
-#lines = [i.strip() for i in file.readlines()]
-#numbers, symbols = load_first_symbols(lines)
-#print(find_first_number(numbers, symbols))
+file = open('input', 'r')
+lines = [i.strip() for i in file.readlines()]
+numbers, symbols = load_first_symbols(lines)
+print(find_first_number(numbers, symbols))
 
 
 def load_second_symbols(lines):
